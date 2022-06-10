@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+   
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+      <!-- JavaScript Bundle with Popper -->
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    
+</head>
+
+<body>
+   <form action="">
+      <div class="namaLengkap mb-2">
+         <label for="Nama" class="fw-bold mb-1" >Nama Lengkap</label>
+         <input type="text" class="form-control" placeholder="Nama Lengkap " id="Nama" required autofocus>
+      </div>
+      
+      
+       <div class="Alamat mb-2">
+         <label for="alamat" class="fw-bold mb-1" >Alamat Rumah</label>
+         <textarea class="form-control" id="alamat" required>Alamat Rumah</textarea>
+      </div>
+      
+      <div class="fotoProfile mb-2">
+         <label for="file" class="fw-bold mb-1">Foto Profile</label> <br> </be>
+         <input type="file" class="form-control-sm" id="file" required>
+      </div>
+      
+       <div class="alamatEmail mb-2">
+          <label for="alamatEmail" class="fw-bold mb-1">Alamat Email</label>
+          <input type="email" class="form-control" id="alamatEmail" placeholder="Alamat Email">
+       </div>
+
+       <div class="kataSandi mb-2">
+           <label for="kataSandi" class="fw-bold mb-1">Kata Sandi</label>
+           <input type="password" class="form-control" id="kataSandi" placeholder="Kata Sandi" required>
+        </div>
+        
+       
+      <div class="kendaraan">
+         
+       <span class="fw-bold">Jenis Kendaraan : </span>
+       <div class="mx-1 mb-2 d-inline-block">
+          
+        <input type="radio" name="kendaraan" class="form-check-input" id="motor" value="Motor">
+           <label for="motor" class="mb-1 form-check-label">Motor</label>
+        </div>
+        
+        <div class="form-check d-inline-block">
+          <input type="radio" name="kendaraan" class="form-check-input" id="mobil">
+          <label for="mobil" class="mb-1 form-check-label">Mobil</label>
+         </div>
+      </div> 
+      <!-- AKHIR PEKBUNGKUS KENDARAAN-->
+         
+        
+        
+        <input type="submit" class="btn btn-primary rounded" value="Register">
+
+      
+   </form>
+
+</body>
+
+</html>
